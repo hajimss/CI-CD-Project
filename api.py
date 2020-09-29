@@ -6,3 +6,6 @@ with open('simple.html') as html_file:
 
 match = soup.title.text
 print(match)
+
+div = soup.find("div", class_='footer')
+print(div)
