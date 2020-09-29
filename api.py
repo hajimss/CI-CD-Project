@@ -1,5 +1,8 @@
+from bs4 import BeautifulSoup
 import requests
 
-x = requests.get('https://w3schools.com/python/demopage.htm')
+with open('simple.html') as html_file:
+    soup = BeautifulSoup(html_file, 'lxml')
 
-print(x.text)
+match = soup.title.text
+print(match)
