@@ -12,4 +12,4 @@ jobs:
       with:
         to: 373885575
         token: 1162934814:AAFwn40stOdbSp6fns77ElU2f5kq53jODDg
-        args: The ${{ github.event_name }} event triggered first step on ${{ github.repo }}. Congratulations!!
+        args: The ${{ github.event_name }} event triggered first step on ${{ repo }}. Congratulations!!
