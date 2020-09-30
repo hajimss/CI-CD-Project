@@ -14,4 +14,4 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         args: The ${{ github.event_name }} event triggered first step. Congratulations!!
         message: send photo message
-        photo: ../thumb.jpeg
+        photo: ../../thumb.jpeg

@@ -13,6 +13,7 @@ git clone https://github.com/hajimss/CI-CD-Project.git
 cd CI-CD-Project
 ```
 
+
 ```
 docker build -t "app" .
 ```
