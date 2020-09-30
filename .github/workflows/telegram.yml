@@ -11,5 +11,5 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.1162934814 }}
+        token: 1162934814:AAFwn40stOdbSp6fns77ElU2f5kq53jODDg
         args: The ${{ github.event_name }} event triggered first step.
