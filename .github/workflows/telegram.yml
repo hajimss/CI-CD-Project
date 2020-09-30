@@ -10,6 +10,6 @@ jobs:
     - name: send custom message with args
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
+        to: Hazim_Notification_Bot
         token: 1162934814:AAFwn40stOdbSp6fns77ElU2f5kq53jODDg
         args: The ${{ github.event_name }} event triggered first step.
