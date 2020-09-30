@@ -12,6 +12,6 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: The ${{ github.event_name }} event is triggered. Congratulations!!
-        message: send photo message
-        photo: ../../thumb.jpeg
+        args: A ${{ github.event_name }} event was triggered. Please check the update!!
+        #message: send photo message
+        #photo: ../../thumb.jpeg
