@@ -24,4 +24,4 @@ match_gold_price = soup_gold.find('span', attrs={"data-reactid": "32"})
 
 print(match_gold_name.text, match_gold_price.text)
 
-assert match_aapl_name.text == "Apple Inc. (AAPL)jj"
+assert match_aapl_name.text == "Apple Inc. (AAPL)"
