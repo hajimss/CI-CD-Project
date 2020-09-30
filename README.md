@@ -7,18 +7,18 @@ With your VM or local machine, execute these commands to run the python script t
 
 First, clone this repository into your preferred directory and change directory into the cloned folder
 ```
-git clone https://github.com/hajimss/CI-CD-Project.git
-```
-```
-cd CI-CD-Project
+$ git clone https://github.com/hajimss/CI-CD-Project.git
+$ cd CI-CD-Project
 ```
 
+Build the Docker image using the Dockerfile
 
 ```
-docker build -t "app" .
+$ docker build -t "app" .
 ```
+Run It!!
 
 ```
-docker run -ti app
+$ docker run -ti app
 ```
 
