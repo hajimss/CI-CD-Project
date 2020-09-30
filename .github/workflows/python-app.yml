@@ -35,6 +35,3 @@ jobs:
       run: |
         pip3 install pytest
         pytest
-    - name: Run It!
-      run: |
-        python3 ../../src/api.py
