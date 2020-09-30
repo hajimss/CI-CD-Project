@@ -12,7 +12,6 @@ jobs:
       with:
         to: 373885575
         token: 1162934814:AAFwn40stOdbSp6fns77ElU2f5kq53jODDg
-        args: The ${{ github.event_name }} event triggered first step. Congratulations!!
+        #args: The ${{ github.event_name }} event triggered first step. Congratulations!!
         message: send photo message
         photo: ../thumb.jpeg
-        document: ../thumb.jpeg
