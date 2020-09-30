@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import pytest
 
 r_st = requests.get('https://sg.finance.yahoo.com/quote/%5ESTI?p=^STI')
 r_aapl = requests.get('https://sg.finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch')
@@ -22,3 +23,5 @@ match_gold_name = soup_gold.find('h1', class_='D(ib)')
 match_gold_price = soup_gold.find('span', attrs={"data-reactid": "32"})
 
 print(match_gold_name.text, match_gold_price.text)
+
+assert match_aapl_name.text == "Apple Inc. (AAPL)jj"
